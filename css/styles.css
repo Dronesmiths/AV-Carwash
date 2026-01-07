@@ -718,8 +718,14 @@ footer {
     object-fit: cover;
 }
 
-/* AFTER IMAGE CLIP */
+/* BEFORE LAYER (Bottom) */
+.av-yard-before {
+    z-index: 1;
+}
+
+/* AFTER LAYER (Top) */
 .av-yard-after {
+    z-index: 2;
     clip-path: inset(0 0 0 50%);
 }
 
